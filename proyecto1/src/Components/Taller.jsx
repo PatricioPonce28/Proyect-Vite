@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../CSS_Components/Taller.css'; // Importa el archivo CSS
 
 const Taller = () => {
   // Estados para manejar los valores de cada campo
