@@ -18,6 +18,15 @@ const Taller = () => {
   };
 
   return (
+  <div
+      style={{
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        height: '100vh', 
+        textAlign: 'center', 
+        flexDirection: 'column', 
+      }}
+>
     <div>
       <h2>Registro de Estudiante</h2>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
@@ -84,14 +93,15 @@ const Taller = () => {
         <div
           style={{
             marginTop: '20px',
-            color: 'green',
+            color: 'black',
             whiteSpace: 'pre-line',
           }}
         >
           {mensaje}
         </div>
       )}
-    </div>
+      </div>
+  </div>
   );
 };
 
