@@ -6,7 +6,8 @@ import Deportes from './Components/Deportes';
 import Musica from './Components/Musica';
 import Hobbies from './Components/Hobbies';
 import Formulario from './Components/Formulario';
-import FormularioRegistro from './Components/FormularioRegistro';
+import FR from './Components/FR';
+import Taller from './Components/Taller';
 
 
 const App = () => {
@@ -28,7 +29,11 @@ const App = () => {
         </div>
         <div>
           <h1>Opción 2: Comentarios</h1>
-          <FormularioRegistro />
+          <FR />
+        </div>
+        <div>
+          <h1>Taller: Formulario</h1>
+          <Taller />
         </div>
       </div>
   );
